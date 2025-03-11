@@ -1,0 +1,92 @@
+.projects {
+  background: #26243c;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.projects h1 {
+  margin-top: 2rem;
+  color: #ffffffd0;
+  font-size: 2.2rem;
+}
+
+.projects .cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  background: #80808038;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 20px 40px;
+  transition: all 0.4s ease;
+}
+
+.projects .cart:hover {
+  background: #80808077;
+}
+
+.projects .cart .left h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #ffffffc4;
+}
+
+.projects .cart .left p {
+  margin-bottom: 3rem;
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.545);
+}
+
+.projects .cart .left .used {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.projects .cart .left .used span {
+  padding: 5px 10px;
+  background: black;
+  color: rgba(255, 255, 255, 0.655);
+  border-radius: 10px;
+}
+
+.projects .cart .right img {
+  width: 300px;
+  transition: all 0.2s ease-in-out;
+  transform: translateX(80px);
+}
+
+.projects .cart:hover .right img {
+  transform: rotate(10deg);
+}
+@media screen and (max-width: 670px) {
+  .projects .cart .left h2 {
+    font-size: 1.2rem;
+  }
+  .projects .cart .left p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .projects .cart .left {
+    padding-left: 20px;
+  }
+  .projects .cart {
+    width: 400px;
+  }
+  .projects .cart .right img {
+    width: 200px;
+    transform: translateX(50px);
+  }
+  .projects .cart .left .used {
+    gap: 0.5rem;
+  }
+  .projects .cart .left .used span {
+    font-size: 0.7rem;
+  }
+}

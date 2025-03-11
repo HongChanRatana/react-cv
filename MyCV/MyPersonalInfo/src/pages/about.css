@@ -1,0 +1,39 @@
+:root {
+  --border-color: white;
+  --text-color: #ffffffc5;
+  --fon-size1: 2rem;
+  --fon-size2: 1.5rem;
+  --fon-size3: 1.2rem;
+}
+.about {
+  width: 100%;
+  background: #26243c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.about h1 {
+  margin-top: 120px;
+  color: var(--text-color);
+  font-size: 2.2rem;
+}
+
+.about .photo {
+  width: 200px;
+}
+
+.about .photo img {
+  outline: 2px solid greenyellow;
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 30px;
+}
+
+.about p {
+  margin-top: 30px;
+  color: var(--text-color);
+  font-size: var(--fon-size3);
+  text-align: center;
+  padding: 0 20%;
+}
