@@ -14,7 +14,7 @@ const Home = () => {
         <div className="profile">
           <img src={Profile} alt="profile" />
         </div>
-        <h1>Hi, I'm Mr. SiNeth</h1>
+        <h1>Hi, I'm Mr. Ratana</h1>
         <p>
           Full-stack Developer, constantly fueling my passion for learning.{" "}
           <br /> I'm always on the lookout for new things to try.
